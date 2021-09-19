@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Storica;
   background-color: #FCF9F2;
 }
 
@@ -70,4 +70,9 @@ body {
 .button--icon {
   min-width: initial;
   padding: 0.5rem;
+}
+
+@font-face {
+  font-family: Storica;
+  src: url("../Storica/Storica-Bold.ttf");
 }
