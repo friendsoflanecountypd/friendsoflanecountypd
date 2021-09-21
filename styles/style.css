@@ -168,6 +168,11 @@ body {
   text-align: center;
 }
 
+.mission {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
 /* Board grid */
 .parent {
 display: grid;
