@@ -214,6 +214,10 @@ body {
   font-family: Raleway;
 }
 
+ul {
+  z-index: -999;
+}
+
 /* Application */
 
 .applicationImage {

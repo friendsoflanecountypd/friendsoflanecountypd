@@ -1,18 +1,18 @@
-let navWrapper = document.querySelector(".nav__wrapper");
-let navToggle = document.querySelector(".nav__toggle");
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
-$(document).ready(function(){
-  $('#nav-icon4').click(function(){
-    $(this).toggleClass('open');
+hamburger.addEventListener("click", mobileMenu);
 
-    if (navWrapper.classList.contains("active")) {
-      this.setAttribute("aria-expanded", "false");
-      this.setAttribute("aria-label", "menu");
-      navWrapper.classList.remove("active");
-    } else {
-      navWrapper.classList.add("active");
-      this.setAttribute("aria-label", "close menu");
-      this.setAttribute("aria-expanded", "true");
-    }
-  });
-});
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
