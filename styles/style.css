@@ -184,6 +184,7 @@ body {
   max-width: 720px;
   padding: 32px 32px 32px 32px;
   margin: 32px;
+  line-height: 22px;
 }
 
 .banner-title {
@@ -194,6 +195,42 @@ body {
 .banner-desc {
   padding-top: 20px;
   font-family: Raleway;
+}
+
+/* Body */
+
+h1 {
+  font-size: 30px;
+  font-family: Storica;
+}
+
+@media only screen and (max-width: 1800px) {
+  h1 {
+    font-size: 16px;
+  }
+}
+
+body {
+  font-family: Raleway;
+}
+
+/* Application */
+
+.applicationImage {
+  width: 84px;
+  height: auto;
+  margin: 0 auto 32px;
+}
+
+.applicationText {
+  font-family: Raleway;
+  line-height: 26px;
+}
+
+.applicationProcessContext {
+  display: flex;
+  flex-direction: column;
+  padding: 0 32px;
 }
 
 /* Board grid */
