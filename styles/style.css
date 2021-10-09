@@ -171,13 +171,20 @@ body {
 }
 
 .container {
-  position: flex;
+  display: flex;
+  background-image: url("../images/welcometooregon.jpg");
+  background-size: cover;
+  justify-content: center;
 }
 
 /* Bottom right text */
 .text-block {
   font-family: Raleway;
-  position: flex;
+  background-color: #243359;
+  color: White;
+  max-width: 720px;
+  padding: 32px 32px 32px 32px;
+  margin: 32px;
 }
 
 /* Board grid */
