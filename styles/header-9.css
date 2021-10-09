@@ -64,7 +64,7 @@ ul {
     color: #482ff7;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -89,13 +89,13 @@ ul {
     }
 
     .nav-item a {
-        background-color: #FCF9F2;
-        color: #243359;
+        background-color: #243359;
+        color: #FCF9F2;
     }
 
     .donateButton a {
-        background-color: #243359;
-        color: #FCF9F2;
+        background-color: #FCF9F2;
+        color: #243359;
     }
 
     .hamburger {
