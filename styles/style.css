@@ -275,6 +275,19 @@ ul {
   font-family: Raleway;
 }
 
+/* Donate */
+.donateBodyContext {
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+}
+
+.donateText {
+  text-align: center;
+  font-family: Raleway;
+  line-height: 26px;
+}
+
 /* footer */
 
 footer {
