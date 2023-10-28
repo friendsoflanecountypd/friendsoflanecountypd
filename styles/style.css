@@ -201,6 +201,14 @@ body {
   font-family: Raleway;
 }
 
+/* Link styling */
+a:link {
+  color: #0000EE;
+}
+a:visited {
+  color: #551A8B;
+}
+
 /* Body */
 
 h1 {
